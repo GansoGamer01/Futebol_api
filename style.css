@@ -7,50 +7,52 @@
 
 header
 {
-    background-color: green;
-    height: 12vh;
+    background-color: antiquewhite;
+    height: 18vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+
 }
 
 main
 {
-    background-color: antiquewhite;
-    height: 88vh;
+    background-color: aqua;
+    height: 82vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-section
+main div
 {
-    background-color: brown;
+    width: 75%;
     height: 90%;
-    width: 80%;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 8px;
-    border-radius: 16px;
+    gap: 16px;
+    background-color: palegreen;
 }
 
-ul, li
-{
-    list-style: none;
-}
-
-ul
-{
-    display: flex;
-    flex-direction: column;
-}
-
-li
+section div
 {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 16px;
+    padding: 8px;
+}
+
+.table_classific
+{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+
+.table_stats
+{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
 }
